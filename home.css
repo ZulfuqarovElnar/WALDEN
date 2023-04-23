@@ -29,6 +29,7 @@ nav{
     top: 0;
     left: 0;
     background-color: rgb(143, 28, 28,0.8);
+    z-index: 30;
 }
 .nav-link ul{
     display: flex;
@@ -128,4 +129,50 @@ main{
 .gong-btn button:hover{
     cursor: pointer;
     background-color: #ae0505;
+}
+
+            /* * Special * */
+.special{
+    max-width: 1440px;
+    width: 100%;
+    height: 753px;
+}
+.special-title h2{
+    text-align: center;
+    padding-top: 75px;
+    color: #757575;
+}
+.special-body{
+    display: flex;
+    gap: 36px;
+    overflow-x: scroll;
+    padding-top: 49px;
+}
+.special-body::-webkit-scrollbar {
+    display: none;
+}
+.special-card{
+    height: 555px;
+    position: relative;
+}
+.special-card img{
+    position: relative;
+    z-index: -1;
+}
+.special-text{
+    max-width: 342px;
+    width: 100%;
+    height:  104px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    right: 12px;
+    border-radius: 25px;
+    line-height: 21px;
+}
+.special-text p{
+    color: #757575;
+    font-size: 14px;
+    padding: 13px 25px 7px 15px;
 }
