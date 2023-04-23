@@ -19,7 +19,7 @@ header{
     position: relative;
 }
 nav{
-    max-width: 1370px;
+    max-width: 1440px;
     width: 100%;
     height: 41px;
     padding: 35px;
@@ -59,10 +59,13 @@ nav{
 }
 
         /* * Cushion * */
+main{
+    max-width: 1440px;
+    width: 100%;
+}
 .cushion{
     max-width: 1440px;
     width: 100%;
-    height: 737;
 }
 .cushion-title{
     max-width: 907px;
@@ -81,6 +84,48 @@ nav{
     overflow-x:  scroll;
     text-align: center;
 }
+.cushion-body p{
+    padding-top: 14px;
+}
 .cushion-body::-webkit-scrollbar {
     display: none;
+}
+
+        /* * Gong * */
+.gong {
+    max-width: 1370px;
+    width: 100%;
+    height: 777px;
+    margin: 0 auto;
+    background: no-repeat url(images/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png) center;
+    position: relative;
+    z-index: -1;
+}
+.gong-title{
+    text-align: center;
+    padding-top: 56px;
+    color: #fff;
+}
+.gong-title p{
+    padding-top: 21px;
+    font-size: 14px;
+}
+.gong-btn{
+    width: 105px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.gong-btn button{
+    padding: 11px 16px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px; 
+    background-color: rgba(255, 255, 255,0);
+    color: #fff;
+}
+.gong-btn button:hover{
+    cursor: pointer;
+    background-color: #ae0505;
 }
