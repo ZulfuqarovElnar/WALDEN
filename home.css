@@ -331,7 +331,11 @@ footer{
 
             /* Responsive */
 @media screen and (max-width: 608px) {
-    .navbar label,input{
+    .nav-logo{
+        position: absolute;
+        top: 23px;
+    }
+    nav label,input{
         display: block;
     }
     .nav-link button{
